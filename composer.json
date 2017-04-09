@@ -1,7 +1,7 @@
 {
-    "name": "ridzhi/package",
-    "description": "",
-    "keywords": [""],
+    "name": "ridzhi/readline-completer-yii2",
+    "description": "readline completion for yii2 console application",
+    "keywords": ["readline", "console", "autocomplete", "yii2"],
     "authors": [
         {
             "name": "Danila Stivrinsh",
@@ -10,20 +10,21 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ridzhi\\Package": [
+            "Ridzhi\\Readline\\Completer\\Yii2\\": [
                 "src/"
             ]
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ridzhi\\Package\\Tests\\": [
+            "Ridzhi\\Readline\\Completer\\Yii2\\Tests\\": [
                 "tests/"
             ]
         }
     },
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.0",
+        "ridzhi/readline": "~0.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0"
